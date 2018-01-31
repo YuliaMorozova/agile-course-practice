@@ -3,7 +3,13 @@ package ru.unn.agile.Range.view.legacy;
 import ru.unn.agile.Range.ViewModel.legacy.ViewModel;
 import ru.unn.agile.Range.infrastructure_lab3_legacy.TxtLogger;
 
-import javax.swing.*;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JButton;
+import javax.swing.JTextArea;
+import javax.swing.JTextField;
+import javax.swing.JComboBox;
+import javax.swing.JList;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 import java.util.List;

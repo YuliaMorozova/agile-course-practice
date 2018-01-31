@@ -287,15 +287,15 @@ public class ViewModelTests {
     }
 
     @Test(expected = IllegalArgumentException.class)
-    public void canThrowExceptionWhenLoggerIsNull() {
+    public void canThrowExceptionWithNullLogger() {
         new ViewModel(null);
     }
 
     @Test
-    public void isLogEmptyAfterStart() {
-        List<String> log = viewModel.getLog();
+    public void isLogEmptyAfterStartApplication() {
+        List<String> logList = viewModel.getLog();
 
-        assertEquals(0, log.size());
+        assertEquals(0, logList.size());
     }
 
     @Test
