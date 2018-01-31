@@ -1,0 +1,4 @@
+dependencies {
+    compile project(':Range-ViewModel')
+	compile project(':Range-Infrastructure')
+}
